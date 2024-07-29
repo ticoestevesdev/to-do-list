@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/animate.css">
+    <title>To Do list</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header__form">
+            <h1>
+                To Do List
+                <span class="credits">
+                    By <a href="https://ticoesteves.github.io/portfolio/">Tico Esteves</a>
+                </span>
+            </h1>
+            <button class="del__list" onclick="cleanList();">Limpar</button>
+        </div>
+        <div class="form animate__animated animate__bounce">
+            <input type="text" name="addItemList" id="addItemList" placeholder="Digite uma tarefa..."/>
+            <button type="submit" id="submit">Adicionar</button>
+        </div>
+        <div id="getItem"></div>
+        <script src="./assets/script.js"></script>
+    </div>
+</body>
+</html> 
